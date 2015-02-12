@@ -1,0 +1,38 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h4.ContactInfo {
+    padding-left: 40px;
+    padding-right: 15px;
+    text-align:left;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+body.home {
+	background-image: url("bldg.jpg");
+	background-size: 1300px 620px;
+}
+
+body.materials {
+	text-align: center;
+}
+
+table.materials {
+	text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-weight: bold;
+}
